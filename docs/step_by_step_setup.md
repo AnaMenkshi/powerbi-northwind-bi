@@ -1,12 +1,28 @@
 ## Complete guide for setting up and running the BI project. Follow these steps to get started:  
+**1.Step 1: Install SQL Server and SSMS**
 
-**1.Install SQL Server Developer Edition and SQL Server Management Studio (SSMS).**
+    1. Install **SQL Server Developer Edition**.  
+    2. Install **SQL Server Management Studio (SSMS)**.  
 
-**2.Download and set up the Northwind database:**
+---
 
-    The database can be obtained from the official Microsoft GitHub repository: Northwind & Pubs sample databases
+**2. Step 2: Set Up Northwind Database**
 
-    Use the SQL scripts provided to create and populate the database in SSMS.
+    1. Download the Northwind script `instnwnd.sql` from:  
+      [Microsoft GitHub - Northwind](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs)
+    2. Open **SSMS** and connect to your SQL Server instance.  
+    3. Open the script `instnwnd.sql` in a new query window.  
+    4. Execute the script to create and populate the Northwind database.  
+
+     > Tip: After execution, you can verify the database by running:  
+    ```sql
+      SELECT TABLE_NAME  
+      FROM INFORMATION_SCHEMA.TABLES  
+      WHERE TABLE_TYPE = 'BASE TABLE'  
+      AND TABLE_CATALOG = 'Northwind';
+
+
+
 
 **3.Explore the Northwind database: check tables, relationships, and sample data.**
 
