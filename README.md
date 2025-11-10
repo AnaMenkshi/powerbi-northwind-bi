@@ -30,7 +30,7 @@ powerbi-northwind-bi/
 
 ├── README.md # Project overview and instructions  
 
-└── .gitignore
+
 
 
 
@@ -83,6 +83,24 @@ powerbi-northwind-bi/
 - Applied conditional formatting for better visual understanding.
 
 ---
+### Setting Up the Northwind Database
+
+The Northwind sample database is available from Microsoft SQL Server samples on GitHub:  
+[Northwind & Pubs sample databases](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs)
+
+**Steps to set up Northwind in SQL Server:**
+
+1. Download the `instnwnd.sql` script from the GitHub repository.  
+2. Open **SQL Server Management Studio (SSMS)**.  
+3. Connect to your SQL Server instance.  
+4. Open the `instnwnd.sql` script in a new query window.  
+5. Execute the script to create and populate the Northwind database.  
+
+> Note: These scripts were originally created for SQL Server 2000 but are compatible with newer versions.
+
+Once the database is installed, you can explore tables, relationships, and sample data before connecting it to Power BI.
+
+---
 
 ## Getting Started
 
@@ -91,16 +109,23 @@ powerbi-northwind-bi/
 3. Connect Power BI to the SQL Server database using the server name provided in your setup.  
 4. Load the data and explore dashboards in the report view.
 
----
 
-## Documentation
-
-
----
 
 ## License
 
-MIT License
+## Notes
+
+- The `.pbix` file in `/pbix` contains the full BI project with all layers implemented.
+- Ensure that the SQL Server instance name matches the connection used in Power BI.  
+- Follow the `step_by_step_setup.md` document for a ready-to-use setup of the project.
+---
+
+## Notes
+
+- The `.pbix` file in `/pbix` contains the full BI project with all layers implemented.
+- Ensure that the SQL Server instance name matches the connection used in Power BI.  
+- Follow the `step_by_step_setup.md` document for a ready-to-use setup of the project.
+
 
 ---
 
