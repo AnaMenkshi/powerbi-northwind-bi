@@ -18,13 +18,18 @@ We followed these main steps:
 7. Built the **Presentation Layer** (interactive reports and dashboards).  
 
 
-## Repository Structure
-powerbi-northwind-bi/
-├── Northwind_Project.pbix # Main Power BI file
-├── docs/
-│ ├── step_by_step_setup.docx # Documentation of dashboard creation
-│ └── data_dictionary.docx # Data dictionary for all tables and columns
-├── README.md # Project overview and instructions
+## Repository Structure  
+
+powerbi-northwind-bi/  
+
+├── Northwind_Project.pbix # Main Power BI file  
+
+├── docs/  
+
+│ ├── step_by_step_setup.docx # Documentation of dashboard creation  
+
+├── README.md # Project overview and instructions  
+
 └── .gitignore
 
 
@@ -32,9 +37,6 @@ powerbi-northwind-bi/
 
 
 
-> You can use Word documents (`.docx`) for documentation if rich formatting is needed.
-
----
 
 ## Steps Performed
 
@@ -98,6 +100,7 @@ powerbi-northwind-bi/
 
 ## License
 
+MIT License
 
 ---
 
